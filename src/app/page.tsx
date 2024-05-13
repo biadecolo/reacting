@@ -1,6 +1,7 @@
 import { Toggling } from "@/components/Toggling";
 import Image from "next/image";
 import Raccoon from "../assets/raccoon.svg"
+import MyFooter from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -67,8 +68,10 @@ export default function Home() {
         </div>
         <div className="basis-1/3"></div>
       </div>
-      
+      <MyFooter />
     </main>
+
+    
     
   );
 }
