@@ -27,10 +27,11 @@ export default function Home() {
         </div>
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
-            <a href="#" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">item1</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">item2</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">item3</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">item4</a>
+            <a href="#" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">etymology</a>
+            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">behavior</a>
+            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">description</a>
+            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">taxonomy</a>
+            
             <Toggling />
           </div>
         </div>
@@ -59,7 +60,7 @@ export default function Home() {
         <div className="basis-1/3"></div>
         <div className="basis-1/3 text-center	">
           <div className="py-10"></div>
-          <img src="https://media.istockphoto.com/photos/little-raccoon-on-tree-picture-id514622028?k=6&m=514622028&s=612x612&w=0&h=oa6bEuRd9EB_D72qJ5UD57dBfnLWz7onQDm6DFJSVLc=" alt="" className="py-10" />
+          <img src="https://media.istockphoto.com/photos/little-raccoon-on-tree-picture-id514622028?k=6&m=514622028&s=612x612&w=0&h=oa6bEuRd9EB_D72qJ5UD57dBfnLWz7onQDm6DFJSVLc=" alt="" className="py-10 rounded-" />
           <h2 className="text-2xl font-bold leading-7 text-gray-900 dark:text-white">Guaxinim</h2>
           <p className="text-black dark:text-white py-8">
           Raccoon, (genus Procyon), any of seven species of nocturnal mammals characterized by bushy ringed tails. The most common and well-known is the North American raccoon (Procyon lotor), which ranges from northern Canada and most of the United States southward into South America. It has a conspicuous black “mask” across the eyes, and the tail is ringed with 5 to 10 black bands. 
